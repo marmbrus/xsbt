@@ -101,7 +101,7 @@ object TestFramework
 			case _ => error("Could not call 'tests' on framework " + framework)
 		}
 
-	private val ScalaCompilerJarPackages = "scala.tools." :: "jline." :: "ch.epfl.lamp." :: Nil
+	private val ScalaCompilerJarPackages = "scala.tools." :: "jline." :: "ch.epfl.lamp." :: "org.apache.avro." :: Nil
 
 	private val TestStartName = "test-start"
 	private val TestFinishName = "test-finish"
